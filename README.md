@@ -9,4 +9,7 @@
 - HTML;
 - CSS;
 - PHP;
-- MySql.
+- MySQL.
+
+# Integrantes 
+Bruna Aparecida Gonçalves, Érica Neves Calisto, Lucas da Silva Rubio, Lucas Pereira Leme de Souza, Marcelina Carneiro de Lima, Priscila dos Santos Siqueira Silva e Toni Leandro Fonseca Carrilho.
