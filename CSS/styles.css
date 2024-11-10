@@ -1,0 +1,407 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #1f3d1f;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.orcamento {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.orcamento:hover {
+    background-color: #45a049;
+}
+
+/* Página Home - Seção de Introdução */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+    padding: 80px 0;
+    background: url('inspecao.png') no-repeat center center/cover; /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.intro-text {
+    width: 50%;
+    z-index: 1;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.intro-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    animation: slideIn 1s ease-out;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Botão "Saiba Mais" */
+.intro-text .btn {
+    display: inline-block;
+    background-color: #1f3d1f;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.intro-text .btn:hover {
+    background-color: #4CAF50; /* Cor mais clara para o hover */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+}
+
+/* Animações para o título */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Seção de Inspeção */
+.inspecao {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #e9f5e9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inspecao h2 {
+    font-size: 2.5em;
+    color: #1f3d1f;
+    margin-bottom: 20px;
+}
+
+.inspecao p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.inspecao-itens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.inspecao-itens .item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.inspecao-itens .item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.inspecao-itens h3 {
+    font-size: 1.8em;
+    color: #1f3d1f;
+}
+
+.inspecao-itens p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Seção de Clientes */
+.clientes {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.clientes h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.clientes-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.clientes-logos img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: contain;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.clientes-logos img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Página de Serviços */
+.servicos {
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.servicos h1 {
+    font-size: 2.8em;
+    color: #1f3d1f;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.servico-card {
+    background-color: white;
+    padding: 30px;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servico-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.servico-card h2 {
+    font-size: 1.8em;
+    color: #1f3d1f;
+    margin-bottom: 15px;
+}
+
+.servico-card p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.servico-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.servico-card ul li {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Página de Contato */
+.contato {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contato h1 {
+    font-size: 2.5em;
+    color: #1f3d1f;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Estilo do Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #1f3d1f;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 1.2em;
+    background-color: #1f3d1f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background-color: #1f3d1f;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copyright {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer .contact-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servico-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .contato {
+        padding: 20px;
+    }
+
+    .form-group {
+        align-items: center;
+    }
+}
