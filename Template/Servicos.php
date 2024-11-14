@@ -1,19 +1,25 @@
+<?php
+    ini_set('error_reporting', 'E_ALL');
+    ini_set('display_errors', 1);
+    ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serviços - Nilson Serviços Técnicos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/png" href="/imagens/manutencao.png">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Servicos.html">Serviços</a></li>
-                <li><a href="Contato.html">Contato</a></li>
-                <li><a href="https://wa.me/5519981445041" target="_blank" class="orcamento">Orçamento</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="Servicos.php">Serviços</a></li>
+                <li><a href="Contato.php">Contato</a></li>
+                <li><a href="https://wa.me/5519981445041?text=Tenho%20interesse%20em%20orçar%20seu%20trabalho" target="_blank" class="orcamento">Orçamento</a></li>
             </ul>
         </nav>
     </header>
