@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ . '/../General/database.php');
+require_once('/var/www/Projeto-Integrador-Nilson-Servicos-Tecnicos/General/database.php');
 
 class UnivespModel {
     private $conn;
