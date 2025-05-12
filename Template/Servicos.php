@@ -9,8 +9,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serviços - Nilson Serviços Técnicos</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" type="image/png" href="/imagens/manutencao.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="./imagens/manutencao.png">
 </head>
 <body>
     <header>
@@ -56,7 +56,7 @@
     <footer>
         <div class="footer-content">
             <div class="copyright">
-                <p>Copyright © 2024. Todos os direitos reservados.</p>
+                <p>Copyright © 2025. Todos os direitos reservados.</p>
             </div>
             <div class="contact-info">
                 <p>Endereço: José Athanázio Bueno, 345, Remanso Campineiro, Hortolândia - SP</p>

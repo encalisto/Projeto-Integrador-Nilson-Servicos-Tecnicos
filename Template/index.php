@@ -2,7 +2,7 @@
     ini_set('error_reporting', E_ALL);
     ini_set('display_errors', 1);
 
-include('/var/www/Projeto-Integrador-Nilson-Servicos-Tecnicos/Controller/univespController.php');
+    include(__DIR__ . '/../Controller/univespController.php');
 
 $controller = new UnivespController();
 
@@ -13,8 +13,8 @@ $controller = new UnivespController();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Nilson Serviços Técnicos</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" type="image/png" href="/imagens/manutencao.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="./imagens/manutencao.png">
 </head>
 <body>
     <header>
@@ -32,8 +32,8 @@ $controller = new UnivespController();
         <!-- Seção de Introdução -->
         <section class="intro">
             <div class="intro-text">
-                <h1>Seja Bem-Vindo a Nilson Serviços Técnicos</h1>
-                <p>A Nilson Serviços Técnicos oferece soluções de inspeção industrial, atuando com alta precisão desde 2011, garantindo qualidade e segurança nos processos industriais.</p>
+                <h1>Seja Bem-Vindo a Qualiendi</h1>
+                <p>A Qualiendi oferece soluções de inspeção industrial, atuando com alta precisão desde 2011, garantindo qualidade e segurança nos processos industriais.</p>
                 <a href="Servicos.php" class="btn">Saiba mais</a>
             </div>
         </section>
@@ -60,10 +60,10 @@ $controller = new UnivespController();
         <section class="clientes">
             <h2>Nossos Clientes</h2>
             <div class="clientes-logos">
-                <img src="/imagens/cliente1.png" alt="Cliente ASVOTEC">
-                <img src="/imagens/cliente2.png" alt="Cliente ABA">
-                <img src="/imagens/cliente3.png" alt="Cliente VHS">
-                <img src="/imagens/cliente4.png" alt="Cliente ALPHAFER">
+                <img src="./imagens/cliente1.png" alt="Cliente ASVOTEC">
+                <img src="./imagens/cliente2.png" alt="Cliente ABA">
+                <img src="./imagens/cliente3.png" alt="Cliente VHS">
+                <img src="./imagens/cliente4.png" alt="Cliente ALPHAFER">
             </div>
         </section>
     </main>
@@ -71,7 +71,7 @@ $controller = new UnivespController();
     <footer>
         <div class="footer-content">
             <div class="copyright">
-                <p>Copyright © 2024. Todos os direitos reservados.</p>
+                <p>Copyright © 2025. Todos os direitos reservados.</p>
             </div>
             <div class="contact-info">
                 <p>Endereço: José Athanázio Bueno, 345, Remanso Campineiro, Hortolândia - SP</p>
