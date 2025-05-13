@@ -4,7 +4,19 @@
 
     include(__DIR__ . '/../Controller/univespController.php');
 
-$controller = new UnivespController();
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $browser = $_SERVER['HTTP_USER_AGENT'];
+    $page = $_SERVER['REQUEST_URI'];
+
+    $controller = new UnivespController();
+
+    $controller->getAcesso($ip, $browser, $page);
+
+    // Verifica se o cookie já existe
+    if (!isset($_COOKIE['visitado'])) {
+        // Define o cookie com duração de 1 dia (86400 segundos)
+        setcookie('visitado', 'sim', time() + 86400);
+    }
 
 ?>
 <!DOCTYPE html>

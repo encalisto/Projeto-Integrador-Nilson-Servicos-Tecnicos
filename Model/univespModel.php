@@ -16,5 +16,20 @@ class UnivespModel {
     public function getDatabase(){
         return $this->conn;
     }
+
+
+
+
+    /*--------------- INSERE O ACESSO NO BANCO DE DADOS ---------------*/
+    public function insertAcesso($ip, $browser, $pagina) {
+        $stmt = $this->conn->prepare("INSERT INTO acesso (ip, so, pagina) VALUES (?, ?, ?)");
+        $stmt->bind_param("sss", $ip, $browser, $pagina);
+        
+        if ($stmt->execute()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 ?>
