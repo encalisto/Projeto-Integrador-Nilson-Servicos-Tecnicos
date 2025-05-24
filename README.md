@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/941a40bd-05dc-4b82-83b8-9321b3826be3)
 
-# Projeto Integrador UNIVESP - Software web para uma empresa de inspeçãao de equipamentos metalúrgicos 
+# Projeto Integrador UNIVESP - Software web para uma empresa de inspeção de equipamentos metalúrgicos 
 Desenvolver um software com framework web ou aplicativo que utilize banco de dados, inclua script web (Javascript), nuvem, acessibilidade, controle de versão, integração contínua e testes. Incluir um dos seguintes requisitos: uso e fornecimento de API, análises de dados e IoT.
 - Proposta de desenvolvimento: Os Projetos Integradores, aplicam o conceito de Projetos de Extensão Universitário, inserindo os estudantes na comunidade.
 
