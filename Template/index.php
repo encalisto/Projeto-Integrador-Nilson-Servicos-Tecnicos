@@ -2,6 +2,7 @@
     ini_set('error_reporting', E_ALL);
     ini_set('display_errors', 1);
 
+    include __DIR__ . '/log_access.php';
     include(__DIR__ . '/../Controller/univespController.php');
 
     $ip = $_SERVER['REMOTE_ADDR'];
@@ -24,7 +25,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Nilson Serviços Técnicos</title>
+    <title>Home - Qualiendi</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" type="image/png" href="./imagens/manutencao.png">
 </head>

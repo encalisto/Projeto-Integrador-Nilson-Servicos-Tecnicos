@@ -2,6 +2,7 @@
     ini_set('error_reporting', 'E_ALL');
     ini_set('display_errors', 1);
 
+    include __DIR__ . '/log_access.php';
     include(__DIR__ . '/../Controller/univespController.php');
 
     $ip = $_SERVER['REMOTE_ADDR'];
