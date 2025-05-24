@@ -25,7 +25,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serviços - Nilson Serviços Técnicos</title>
+    <title>Serviços - Qualiendi</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" type="image/png" href="./imagens/manutencao.png">
 </head>
@@ -44,7 +44,7 @@
     <main>
         <section class="servicos">
             <h1>Serviços Oferecidos</h1>
-            <p>Na Nilson Serviços Técnicos, oferecemos serviços especializados em inspeção industrial. Cada serviço é realizado com precisão, buscando sempre garantir a segurança e a eficiência nos processos.</p>
+            <p>Na Qualiendi, oferecemos serviços especializados em inspeção industrial. Cada serviço é realizado com precisão, buscando sempre garantir a segurança e a eficiência nos processos.</p>
             
             <div class="servicos-container">
                 <div class="servico-card">
@@ -78,7 +78,7 @@
             <div class="contact-info">
                 <p>Endereço: José Athanázio Bueno, 345, Remanso Campineiro, Hortolândia - SP</p>
                 <p>Telefone: +55 19 98144-5041</p>
-                <p>Email: nilsoncalisto@gmail.com</p>
+                <p>Email: nilson.calisto@qualiendi.com.br</p>
             </div>
         </div>
     </footer>

@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho e navegação */
 header {
-    background-color: #1f3d1f;
+    background-color: #183058;
     padding: 10px 0;
     color: white;
     text-align: center;
@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 
 .orcamento:hover {
-    background-color: #45a049;
+    background-color: #e88d51;
 }
 
 /* Página Home - Seção de Introdução */
@@ -91,7 +91,7 @@ nav ul li a:hover {
 /* Botão "Saiba Mais" */
 .intro-text .btn {
     display: inline-block;
-    background-color: #1f3d1f;
+    background-color: #183058;
     color: white;
     padding: 12px 30px;
     text-decoration: none;
@@ -102,7 +102,7 @@ nav ul li a:hover {
 }
 
 .intro-text .btn:hover {
-    background-color: #4CAF50; /* Cor mais clara para o hover */
+    background-color: #e88d51; /* Cor mais clara para o hover */
     transform: scale(1.05); /* Aumenta ligeiramente o botão */
 }
 
@@ -131,14 +131,14 @@ nav ul li a:hover {
 .inspecao {
     margin-top: 60px;
     padding: 20px;
-    background-color: #e9f5e9;
+    background-color: #e3edff;
     border-radius: 10px;
     text-align: center;
 }
 
 .inspecao h2 {
     font-size: 2.5em;
-    color: #1f3d1f;
+    color: #183058;
     margin-bottom: 20px;
 }
 
@@ -168,12 +168,12 @@ nav ul li a:hover {
 
 .inspecao-itens h3 {
     font-size: 1.8em;
-    color: #1f3d1f;
+    color: #183058;
 }
 
 .inspecao-itens p {
     font-size: 1.1em;
-    color: #666;
+    color: #8f8f8f;
 }
 
 /* Seção de Clientes */
@@ -215,7 +215,7 @@ nav ul li a:hover {
 
 .servicos h1 {
     font-size: 2.8em;
-    color: #1f3d1f;
+    color: #183058;
     margin-bottom: 20px;
 }
 
@@ -250,7 +250,7 @@ nav ul li a:hover {
 
 .servico-card h2 {
     font-size: 1.8em;
-    color: #1f3d1f;
+    color: #183058;
     margin-bottom: 15px;
 }
 
@@ -285,7 +285,7 @@ nav ul li a:hover {
 
 .contato h1 {
     font-size: 2.5em;
-    color: #1f3d1f;
+    color: #183058;
     margin-bottom: 20px;
 }
 
@@ -311,7 +311,7 @@ form {
 
 label {
     font-size: 1.1em;
-    color: #1f3d1f;
+    color: #183058;
 }
 
 input, textarea {
@@ -336,7 +336,7 @@ textarea {
 button {
     padding: 12px 30px;
     font-size: 1.2em;
-    background-color: #1f3d1f;
+    background-color: #e88d51;
     color: white;
     border: none;
     border-radius: 5px;
@@ -351,7 +351,7 @@ button:hover {
 
 /* Rodapé */
 footer {
-    background-color: #1f3d1f;
+    background-color: #183058;
     color: white;
     padding: 30px 0;
     text-align: center;

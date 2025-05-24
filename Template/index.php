@@ -89,7 +89,7 @@
             <div class="contact-info">
                 <p>Endereço: José Athanázio Bueno, 345, Remanso Campineiro, Hortolândia - SP</p>
                 <p>Telefone: +55 19 98144-5041</p>
-                <p>Email: nilsoncalisto@gmail.com</p>
+                <p>Email: nilson.calisto@qualiendi.com.br</p>
             </div>
         </div>
     </footer>

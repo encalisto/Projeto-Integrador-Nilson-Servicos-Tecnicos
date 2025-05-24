@@ -26,7 +26,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Nilson Serviços Técnicos</title>
+    <title>Contato - Qualiendi</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" type="image/png" href="./imagens/manutencao.png">
 </head>
@@ -77,7 +77,7 @@
             <div class="contact-info">
                 <p>Endereço: José Athanázio Bueno, 345, Remanso Campineiro, Hortolândia - SP</p>
                 <p>Telefone: +55 19 98144-5041</p>
-                <p>Email: nilsoncalisto@gmail.com</p>
+                <p>Email: nilson.calisto@qualiendi.com.br</p>
             </div>
         </div>
     </footer>
